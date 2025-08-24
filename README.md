@@ -2,15 +2,15 @@
 
 This repository includes my work from SNHU’s CS 320: Software Testing, Automation, and Quality Assurance course. It contains code, test cases, and reflections that show how I’ve built and tested software using Java and JUnit.
 
-##Contents
+Contents
 
-Contact.java
+- Contact.java
 
-ContactService.java
+- ContactService.java
 
-ContactTest.java
+- ContactTest.java
 
-ContactServiceTest.java
+- ContactServiceTest.java
 
 Project Two: Summary and Reflection Report
 
