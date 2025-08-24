@@ -1,6 +1,9 @@
 # CS 320 Testing-and-Automation
+
 Jessica Johnson
+
 08/24/2025
+
 This repository includes my work from SNHU’s CS 320: Software Testing, Automation, and Quality Assurance course. It contains code, test cases, and reflections that show how I’ve built and tested software using Java and JUnit.
 
 ## Contents
