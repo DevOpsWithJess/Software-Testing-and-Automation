@@ -1,30 +1,101 @@
-# CS 320 Testing-and-Automation
+# Software Testing and Automation
 
-Jessica Johnson
+Author: Jessica Johnson  
+Language: Java  
+Testing Framework: JUnit 5  
 
-08/24/2025
+---
 
-This repository includes my work from SNHU’s CS 320: Software Testing, Automation, and Quality Assurance course. It contains code, test cases, and reflections that show how I’ve built and tested software using Java and JUnit.
+## Project Overview
 
-## Contents
+This repository demonstrates automated testing and software quality assurance practices using Java and JUnit 5.
 
+The project focuses on validating application behavior through structured unit tests, enforcing input constraints, and ensuring that services behave correctly under both normal and edge-case conditions.
+
+---
+
+## Features
+
+This project demonstrates several important testing practices:
+
+- Unit testing with JUnit 5
+- Input validation and defensive programming
+- Test case design
+- Automated test execution
+- Service-layer testing
+
+---
+
+## Implemented Classes
+
+### Contact.java
+
+Defines the Contact object with validation rules including:
+
+- Unique contact ID
+- Maximum character lengths
+- Non-null constraints
+- Controlled updates to fields
+
+---
+
+### ContactService.java
+
+Manages contact records and enforces validation rules when creating or updating contacts.
+
+Responsibilities include:
+
+- Creating contacts
+- Updating contact information
+- Ensuring ID uniqueness
+- Enforcing validation rules
+
+---
+
+### Unit Tests
+
+JUnit test classes validate both expected behavior and edge cases.
+
+Examples of tested scenarios include:
+
+- Valid contact creation
+- Invalid input rejection
+- Boundary value testing
+- Field update verification
+- Exception handling
+
+---
+
+## Project Files
 - Contact.java
-
 - ContactService.java
-
 - ContactTest.java
-
 - ContactServiceTest.java
 
-Project Two: Summary and Reflection Report
 
-## Reflection
+Additional documentation:
+software-testing-analysis-report.docx
 
-### How can I ensure that my code, program, or software is functional and secure?
-I make sure my code is functional by writing unit tests that check the requirements directly. Automated tests let me know quickly if something breaks and give me confidence when making changes. For security, I focus on input validation and safe coding practices so the program can handle unexpected or invalid data without crashing or being exploited.
 
-### How do I interpret user needs and incorporate them into a program?
-For me, it starts with understanding the requirements in plain language. During these projects, I made sure the classes I wrote matched exactly what the project was asking for. In a realworld setting, I’d want to talk with users or stakeholders to confirm what problems they’re trying to solve. That way, I’m not just writing code. I’m actually building something useful.
+---
 
-### How do I approach designing software?
-I try to break the problem down into smaller, manageable parts instead of jumping straight into code. Using classes and services in these projects helped me keep things organized and easier to test. I’ve also learned to think ahead about scalability and maintenance. Not just “does this work right now?” but “will this still make sense later if the project grows?”
+## Technologies Used
+
+- Java
+- JUnit 5
+- Eclipse IDE
+
+---
+
+## What I Learned
+
+This project reinforced the importance of testing in software development. Writing tests alongside the code helped ensure that the system behaved correctly and prevented small errors from becoming larger defects.
+
+Automated tests also make applications easier to maintain and extend as new features are added.
+
+---
+
+## Course
+
+Southern New Hampshire University  
+CS 320 – Software Testing, Automation, and Quality Assurance
